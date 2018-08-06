@@ -1,0 +1,29 @@
+
+	body{ 
+		background :aqua;
+		
+	}
+	td{
+	width:	200px;
+	height:200px;
+		
+	}
+	/*@media(max-width:700px){
+		td{
+			width:100%;
+		}
+	}*/
+	.solo{
+		background-image: url('../imagepeng/mound.png');
+		background-repeat: no-repeat;
+	}
+	.solo:hover {
+		background-image: url('../imagepeng/mound_hover.png');
+		}
+	h2 {
+		visibility : hidden;
+		
+		}
+	.pointer{
+		pointer-events:none;
+	}
